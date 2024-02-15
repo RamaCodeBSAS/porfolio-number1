@@ -1,0 +1,70 @@
+.div-cart{
+    display: inline-block;
+    width: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.profile-img{
+    width: 200px;
+    height: auto;
+}
+.name, .desc{
+    font-size: 40px;
+    margin-left: 10px;
+}
+.name{
+    margin-top: 0px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.desc{
+    font-size: 20px;
+    margin-top: 5px;
+    color: #203138;
+}
+.web-code-img img{
+    width: 70px;
+    height: auto;
+}
+.web-code-img .html5{
+    position: absolute;
+    margin-left: 362px;
+    margin-top: -300px;
+}
+.web-code-img .css{
+    position: absolute;
+    margin-left: 362px;
+    margin-top: -250px;
+}
+.web-code-img .js{
+    position: absolute;
+    margin-left: 362px;
+    margin-top: -200px;
+}
+.arrow img{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin-left: 380px;
+    margin-top: 180px;
+}
+.info-container{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    margin-left: 720px;
+    margin-top: -150px;
+    padding: 20px;
+    color: #1b3039;
+}
+.info-container h2{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.info-container p{
+    text-align: center;
+}

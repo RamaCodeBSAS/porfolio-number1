@@ -1,0 +1,83 @@
+a{
+    text-decoration: none;
+    color: #faf5c8;
+}
+.final-container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #1b3039;
+    margin-top: 800px;
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.8);
+}
+.contactame{
+    color: #faf5c8;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    margin-top: -700px;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px 0 20px 0;
+}
+.cont-father{
+    position: relative;
+    margin-top: -550px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+.social-contacto-1,
+.social-contacto-2,
+.social-contacto-3,
+.social-contacto-4{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.social-contacto-1 img,
+.social-contacto-2 img,
+.social-contacto-3 img{
+    width: 40px;
+    height: auto;
+    margin-right: 20px;
+}
+.social-contacto-1 .nombre-red,
+.social-contacto-2 .nombre-red,
+.social-contacto-3 .nombre-red{
+    color: #faf5c8;
+}
+.dato-red{
+    transition: color 0.3s;
+}
+.dato-red:hover{
+    color: #ffa600;
+}
+.nombre-red,
+.dato-red{
+    font-size: 25px;
+}
+.nombre-red{
+    margin-right: 20px;
+}
+.social-contacto-4 a{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #faf5c8;
+    color: #1b3039;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all 1s;
+}
+.social-contacto-4 a:hover{
+    background-color: #ffa600;
+    color: black;
+    transform: scale(1.1);
+}

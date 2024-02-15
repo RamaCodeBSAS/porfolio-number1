@@ -1,0 +1,107 @@
+.linea-separadora{
+    background-color: #1b3039;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 150px;
+    opacity: 0.2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .30);
+}
+.linea-separadora p{
+    opacity: 0;
+}
+.title-educacion{
+    background-color: #1b3039;
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    margin-top: 200px;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px 0 20px 0;
+}
+.title-educacion h1{
+    font-size: 30px;
+}
+.gorro{
+    width: 70px;
+    height: auto;
+    position: absolute;
+    margin-top: 121px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+.container-father{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    height: auto;
+    margin-top: 350px;
+}
+.flex-container-1,
+.flex-container-2,
+.flex-container-3{
+    background-color: #1b3039;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    transition: transform 0.3s, color 1s;
+}
+.flex-container-1:hover,
+.flex-container-2:hover,
+.flex-container-3:hover{
+    transform: scale(1.1);
+    color: #ffbc0e;
+}
+.flex-title, .flex-sub-title{
+    text-align: center;
+}
+.flex-title p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.flex-sub-title p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(219, 219, 219);
+}
+.flex-desc{
+    color: #faf5c8;
+    list-style: none;
+}
+.flex-desc li{
+    margin-bottom: 10px;
+}
+.not-button-certificado a{
+    border: none;
+    margin-top: 15px;
+    padding: 5px;
+    transition: all 0.5s;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #faf5c8;
+    color: #1b3039;
+}
+.not-button-certificado a:hover{
+    background-color: #ffbc0e;
+}
+.not-button-certificado a:active{
+    opacity: 0.8;
+}
+.cod{
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(207, 206, 206);
+}
