@@ -1,0 +1,33 @@
+.info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .1);
+    transition: .7s ease all;
+}
+
+.info-container:hover{
+    transform: scale(1.1);
+}
+
+.info-container h1{
+    color:white;
+    margin-bottom: 10px;
+}
+
+
+.info-container h2{
+    color: rgb(182, 182, 255);
+    margin-bottom: 25px;
+}
+
+.info-container p{
+    color: white;
+    line-height: 45px;
+}

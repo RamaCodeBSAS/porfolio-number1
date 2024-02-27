@@ -5,184 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/sobre-mi.css">
-    <link rel="stylesheet" href="styles/educacion.css">
-    <link rel="stylesheet" href="styles/habilidades.css">
-    <link rel="stylesheet" href="styles/porfolio.css"> <!--cuando tenga mas proyectos-->
-    <link rel="stylesheet" href="styles/contacto.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/education-work.css">
+    <link rel="stylesheet" href="styles/skills.css">
+    <link rel="stylesheet" href="styles/proyects.css"> <!--cuando tenga mas proyectos-->
+    <link rel="stylesheet" href="styles/contact.css">
     <title>Porfolio - Ramiro Gracia</title>
 </head>
 <body>
-    <header class="header">
-        <div class="titulo">
-            <!--Luego con JS hago que el <h1> sea como un refresh-->
-            <h1><a href="#home">Mi Porfolio - by Ramiro Gracia</a></h1>
-        </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#educacion">Educación</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-        
-    </header>
-    <main> <!--Etiqueta main separado por <section> en donde los <li> nos llevan a cada section-->
-        <section id="sobre-mi">
-            <div class="arrow">
-                <img src="img/flecha.png" alt="">
+    <main>
+        <header class="header">
+            <div class="titulo">
+                <!--Luego con JS hago que el <h1> sea como un refresh-->
+                <h1><a href="#home">my.port</a></h1>
             </div>
-                <div class="div-cart">
-                    <img class="profile-img" src="img/linkedin.jpg" alt="">
-                    <p class="name">Ramiro</p>
-                    <p class="desc">Software Engineer</p>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education-work">Education & Work</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header> <!--Etiqueta main separado por <section> en donde los <li> nos llevan a cada section-->
+        <section id="home">
+            <div class="home-container">
+                <div class="info-home">
+                    <h2>Hi, i´m <span>Ramiro</span>.<img src="img/hola.png" alt=""></h2>
+                    <h1>Software engineering student</h1>
+                    <p>"Passion for learning, learning for solutions."</p>
+                    <a class="cv-button" href="files/CV-RamiroGracia.pdf">Download CV</a>
+                    <!-- Agregar cuando pueda los logos de Github y Linkedin. Lo que pasaba es que se alineaban con el "boton" de download CV.
+
+                    <a class="logo" href="https://github.com/ramiro-gracia"><img src="img/github-for-home.png" alt=""></a>
+
+                    <a class="logo" href="https://www.linkedin.com/in/ramiro-gracia/"><img src="img/link-for-home.png" alt=""></a>
+
+                    -->
                 </div>
-                <div class="web-code-img">
-                    <img class="html5" src="img/html-5.png" alt="">
-                    <img src="img/css-3.png" alt="" class="css">
-                    <img src="img/js.png" alt="" class="js">
+              
+                <div class="img-home-container">
+                    <a href="#about"><img src="img/linkedin-yo.jpg" alt=""></a>
                 </div>
+            </div>
+        </section>
+        <section id="about">
             <div class="info-container">
-                <h2>Soy Ramiro Gracia, desarrollador web autodidacta y estudiante de ingeniería informática.</h2>
-                <p>¡Hola! soy un estudiante de ingenieria informática apasionado por la 
-                tecnología, la dedicación y la disciplina.
-                Desde pequeño que fuí autodidacta en varios aspectos de mi vida... como la
-                música y el aprender tecnologías nuevas. Me gusta dar lo mejor de mí
-                y estar en constante aprendizaje, conociendo nuevas formas de mejorar.
-                A continuación verás la educación que tuve, mis habilidades y mis proyectos.
-                ¡Que lo disfrutes!
-                </p>
+                <h1>About me.</h1>
+                <h2>Software engineering student and self-taught web developer.</h2>
+                <p>Hello! I am a computer engineering student passionate about technology, dedication and discipline. Since I was little I was self-taught in various aspects of my life... like music and learning new technologies. I like to give my best and be constantly learning, knowing new ways to improve. Below you will see the education I had, my skills and my projects.</p>
+                <p>Enjoy it!</p>
             </div>
         </section>
-        <section id="educacion">
-            <div class="linea-separadora"><p>.</p></div>
-            <div class="title-educacion">
-                <h1>Educación.</h1>
-            </div>
-            <img src="img/birrete.png" alt="" class="gorro">
-            <div class="container-father">
-                <div class="flex-container-1">
-                    <div class="flex-educacion">
-                        <div class="flex-title">
-                            <p>Estudios secundarios.</p>
-                        </div>
-                        <div class="flex-sub-title">
-                            <p>Colegio Santa Teresa de Tigre</p>
-                        </div>
-                        <div class="flex-desc">
-                            <li>Especializacion en Humanidades</li>
-                            <li>Inglés Avanzado</li>
-                            <li>Habilidades de debate</li>
-                            <li>Matematica aplicada</li>
-                        </div>
-                    </div>
+        <section id="education-work">
+            <div class="education-container">
+                <div class="education-container1">
+                    <h1>University</h1>
+                    <h2>Software engineering.</h2>
+                    <h3>Universidad del Salvador.</h3>
+                    <h4>2020-Present (4th year)</h4>
                 </div>
-                <div class="flex-container-2">
-                    <div class="flex-educacion">
-                        <div class="flex-title">
-                            <p>Estudios universitarios.</p>
-                        </div>
-                        <div class="flex-sub-title">
-                            <p>Universidad del Salvador</p>
-                        </div>
-                        <div class="flex-desc">
-                            <li>Programación (Java, C)</li>
-                            <li>Bases de datos (My SQL)</li>
-                            <li>Sistemas Operativos (Linux)</li>
-                            <li>Planeación de proyectos informáticos</li>
-                        </div>
-                    </div>
+                <div class="education-container1">
+                    <h1>Diploma</h1>
+                    <h2>Java programming.</h2>
+                    <h3>U.T.N.</h3>
+                    <h4>2023-Finished</h4>
+                    <a href="https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado">See diploma</a>
+                    <p>Use code: CER-M2GGBU0K-1001069</p>
                 </div>
-                <div class="flex-container-3">
-                    <div class="flex-educacion">
-                        <div class="flex-title">
-                            <p>Diplomaturas.</p>
-                        </div>
-                        <div class="flex-sub-title">
-                            <p>(Estudios extra)</p>
-                        </div>
-                        <div class="flex-desc">
-                            <li>Programacion Java Universidad Tecnologica Nacional</li>
-                            <li>Programacion web HTML5, CSS, JS - Codo a Codo 4.0</li>
-                        </div>
-                    </div>
-                    <div class="not-button-certificado">
-                        <a href="https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado">
-                            Certificados
-                        </a>
-                    </div>
-                    <p class="cod">(Pon este código: CER-M2GGBU0K-1001069)</p>
+                <div class="education-container1">
+                    <h1>Diploma</h1>
+                    <h2>Fullstack web dev.</h2>
+                    <h3>Government of BSAS.</h3>
+                    <h4>2022-Finished</h4>
+                </div>
+                <div class="education-container1">
+                    <h1>Work experience</h1>
+                    <h2>IT support.</h2>
+                    <h3>Northfield School.</h3>
+                    <h4>2022-2023</h4>
                 </div>
             </div>
         </section>
-        <section id="habilidades">
-            <div class="skills-title">
-                <h1>Habilidades</h1>
-            </div>
-            <div class="img-web-dev">
-                <img src="img/web-developer-flatline.svg" alt="">
-            </div>
-            <div class="flex-skills-container">
-                <div class="flex-skills-lenguajes">
-                    <h2>PROGRAMACIÓN</h2>
-                    <div class="skills-img">
-                        <img src="img/html-skills.png" alt="">
-                        <img src="img/css-skills.png" alt="">
-                        <img src="img/js-skills.png" alt="">
-                        <img src="img/c-.png" alt="">
-                        <img src="img/java.png" alt="">
-                    </div>
-                </div>
-                <div class="flex-skills-tools">
-                    <h2>HERRAMIENTAS</h2>
-                    <div class="tools-img">
-                        <img src="img/mysql.png" alt="">
-                        <img src="img/cad.png" alt="">
-                    </div>
-                </div>
-                <div class="flex-skills-frameworks">
-                    <h2>FRAMEWORKS</h2>
-                    <div class="frameworks-img">
-                        <img src="img/nodejs.png" alt="">
-                        <img src="img/react.png" alt="">
-                        <img src="img/bootstrap.svg" alt="">
-                    </div>
-                </div>
+        <section id="skills">
+            <div class="title-skills">
+                <!--Seguir con skills. La idea era hacer como un grid con una foto de fondo con las habilidades que se manejar.-->
+                <h1>Skills.</h1>
             </div>
         </section>
-        <section id="contacto">
-            <div class="final-container"></div>
-            <div class="contactame">
-                <h1>¡CONTÁCTAME!</h1>
-            </div>
-            <div class="cont-father">
-                <div class="social-contacto-1">
-                    <img src="img/gmail.png" alt="">
-                    <p class="nombre-red">Email:</p>
-                    <a href="mailto:ramiro.graciia@gmail.com?subject= Vi tu página web. Quiero contactarte."><p class="dato-red">ramiro.graciia@gmail.com</p></a>
-                </div>
-                <div class="social-contacto-2">
-                    <img src="img/whatsapp.png" alt="">
-                    <p class="nombre-red">Whatsapp:</p>
-                    <a href="https://api.whatsapp.com/send?phone=541160007044"><p class="dato-red">+54 911-6000-7044</p></a>
-                </div>
-                <div class="social-contacto-3">
-                    <img src="img/linkedin.png" alt="">
-                    <p class="nombre-red">Linkedin:</p>
-                    <a href="https://www.linkedin.com/in/ramiro-gracia/"><p class="dato-red">ln/ramiro-gracia</p></a>
-                </div>
-                <div class="social-contacto-4">
-                    <img src="img/github.png" alt="">
-                    <p class="nombre-red">GitHub:</p>
-                    <a href="https://github.com/RamaCodeBSAS"><p class="dato-red">github.com/RamaCodeBSAS</p></a>
-                </div>
-                <div class="social-contacto-5">
-                    <a href="files/CV-RamiroGracia.pdf" download="Curriculum_Vitae">
-                        Descargar Curriculum Vitae
-                    </a>
-                </div>
-            </div>
+        <section id="contact">
+
         </section>
     </main>
 </body>

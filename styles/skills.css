@@ -1,0 +1,10 @@
+.title-skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-skills h1{
+    color: rgb(182, 182, 255);
+    font-size: 42px;
+}
