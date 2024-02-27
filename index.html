@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/education-work.css">
     <link rel="stylesheet" href="styles/skills.css">
-    <link rel="stylesheet" href="styles/proyects.css"> <!--cuando tenga mas proyectos-->
     <link rel="stylesheet" href="styles/contact.css">
     <title>Porfolio - Ramiro Gracia</title>
 </head>
@@ -34,7 +33,7 @@
             <div class="home-container">
                 <div class="info-home">
                     <h2>Hi, i´m <span>Ramiro</span>.<img src="img/hola.png" alt=""></h2>
-                    <h1>Software engineering student</h1>
+                    <h1>Software engineering student.</h1>
                     <p>"Passion for learning, learning for solutions."</p>
                     <a class="cv-button" href="files/CV-RamiroGracia.pdf">Download CV</a>
                     <!-- Agregar cuando pueda los logos de Github y Linkedin. Lo que pasaba es que se alineaban con el "boton" de download CV.
@@ -45,21 +44,23 @@
 
                     -->
                 </div>
-              
                 <div class="img-home-container">
                     <a href="#about"><img src="img/linkedin-yo.jpg" alt=""></a>
                 </div>
             </div>
         </section>
         <section id="about">
-            <div class="info-container">
-                <h1>About me.</h1>
-                <h2>Software engineering student and self-taught web developer.</h2>
-                <p>Hello! I am a computer engineering student passionate about technology, dedication and discipline. Since I was little I was self-taught in various aspects of my life... like music and learning new technologies. I like to give my best and be constantly learning, knowing new ways to improve. Below you will see the education I had, my skills and my projects.</p>
-                <p>Enjoy it!</p>
+            <div class="about-container">
+                <div class="info-container">
+                    <h1>About me.<span>&#160</span></h1>
+                    <h2>Software engineering student and self-taught web developer.</h2>
+                    <p>Hello! I am a computer engineering student passionate about technology, dedication and discipline. Since I was little I was self-taught in various aspects of my life... like music and learning new technologies. I like to give my best and be constantly learning, knowing new ways to improve. Below you will see the education I had, my skills and my projects.</p>
+                    <p>Enjoy it!</p>
+                </div>
             </div>
         </section>
         <section id="education-work">
+            <h1 class="education-wotk-title">Education & Work</h1>
             <div class="education-container">
                 <div class="education-container1">
                     <h1>University</h1>
@@ -90,9 +91,39 @@
             </div>
         </section>
         <section id="skills">
-            <div class="title-skills">
-                <!--Seguir con skills. La idea era hacer como un grid con una foto de fondo con las habilidades que se manejar.-->
-                <h1>Skills.</h1>
+            <!--Seguir con skills. La idea era hacer como un grid con una foto de fondo sobre el proyecto y que cuando haga hover se difumine la imagen  y salga un texto describiendo el nombre del proyecto y las skills que use. Cuando haga click lo lleve al proyecto-->
+            <div id="grid">
+                <div class="grid-container">
+                    <h1 class="title-skills">Proyects & Skills.</h1>
+                    <div class="gird-wrapper">
+                        <div class = "box .box-1">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur nostrum pariatur quod totam accusamus voluptatum, voluptates tenetur unde magni.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt maiores asperiores temporibus dolore minus quibusdam, incidunt id praesentium a! Ut, non aut. Veritatis velit aperiam accusamus. Esse repellendus ratione, recusandae autem eum iure vero. Veniam.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ratione cupiditate cum iusto, doloremque est voluptate totam facilis nesciunt exercitationem accusantium, incidunt aperiam nulla ab quidem sunt laboriosam saepe, voluptates libero et similique sint nihil? Culpa eaque distinctio doloremque soluta dolorem optio laboriosam? Nesciunt incidunt, tenetur nisi eveniet expedita quae.</p>
+                            <a href="#" class="btn btn-purple">More Info</a>
+                        </div>
+                        <div class="box .box-2">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, quia? Esse autem neque magnam fugiat repellendus sint vitae atque minima aut quae consectetur impedit nisi blanditiis molestiae quam, inventore quibusdam, nostrum cupiditate! Rem, asperiores consequuntur.</p>
+                            <a href="#" class="btn btn-purple">More Info</a>
+                        </div>
+                        <div class="box .box-3">
+                            <img src="img/git-grid.png" alt="">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam modi tempora, totam qui natus aliquam quo dolore enim quasi itaque perspiciatis vel, iste sit eaque!</p>
+                            <a href="#" class="btn btn-purple">More Info</a>
+                        </div>
+                        <div class="box .box-4">
+                            <img src="img/tw-card.png" alt="">
+                        </div>
+                        <div class="box .box-5">
+                            <img src="img/my-porfolio.png" alt="">
+                            <a href="#" class="btn btn-orange">More Info</a>
+                        </div>
+                        <div class="box .box-6">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, minima beatae? Praesentium in ea inventore. Illum animi fugit atque distinctio!</p>
+                            <a href="#" class="btn btn-orange">More Info</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="contact">
@@ -100,4 +131,3 @@
         </section>
     </main>
 </body>
-</html>

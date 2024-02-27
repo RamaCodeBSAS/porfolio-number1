@@ -1,8 +1,11 @@
+#home{
+    background-color: #141313;
+}
+
 .home-container{
     display: flex;
-    margin-top: 0;
     margin-left: 300px;
-    height: 925px;
+    margin-top: 250px;
     width: fit-content;
     align-items: center;
     justify-content: center;
@@ -10,11 +13,7 @@
 }
 
 .home-container .info-home{
-    margin-right: auto;
-    margin-left: 30px;
-    margin-top: 10px;
-    align-items: center;
-    padding: 70px 50px 50px;
+    padding: 70px;
 }
 
 .home-container .info-home h2{
@@ -51,7 +50,8 @@
     cursor: pointer;
     text-decoration: none;
     color: rgb(182, 182, 255);
-    padding: 10px 20px;
+    padding: 10px 50px;
+    font-weight: bold;
     transition: .3s ease all;
 }
 
@@ -63,14 +63,13 @@
 .img-home-container{
     display: flex;
     margin-left: auto;
-    margin-right: 0px;
-    margin-top: 0px;
+    margin-right: 0;
 }
 
 .img-home-container img{
     border-radius: 100px;
     width: 200px;
-    height: 200px;
+    height: auto;
     border: 2px solid rgb(182, 182, 255);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
     transition: .3s ease all;

@@ -9,26 +9,11 @@
 }
 
 body{
-    background-color: #202020;
     margin: 0;
-    padding: 0;
-    height: 9000px;
-}
-
-#home{
     background-color: #141313;
 }
 
-#about{
-    background-color: #202020;
-    margin-top: 180px;
-}
-
-#education-work{
-    margin-top: 300px;
-    background-color: #141313;
-}
-
-#skills{
-    margin-top: 200px;
+section{
+    height: 100vh;
+    width: auto;
 }
