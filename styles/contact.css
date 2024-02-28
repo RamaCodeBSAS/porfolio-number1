@@ -1,0 +1,64 @@
+#contact{
+    background-color: #141313;
+    height: 50vh;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.contact-container h1{
+    color: rgb(182, 182, 255);
+    font-size: 42px;
+    text-align: center;
+}
+
+.contact-me-logos-x1{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+}
+
+.contact-me-logos-x1 svg{
+    margin-top: 80px;
+    width: 50px;
+    height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-decoration: none;
+    color: white;
+    transition: .3s ease all;
+}
+
+.contact-me-logos-x1 svg:hover{
+    color: rgb(182, 182, 255);
+}
+
+.contact-me-logos-x2{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contact-me-logos-x2 svg{
+    width: 50px;
+    height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-decoration: none;
+    color: white;
+    transition: .3s ease all;
+}
+
+.contact-me-logos-x2 svg:hover{
+    color: rgb(182, 182, 255);
+}

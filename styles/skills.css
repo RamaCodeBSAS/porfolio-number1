@@ -3,43 +3,112 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 200vh;
 }
 
-.title-skills{
-    color: rgb(182, 182, 255);
-    font-size: 42px;
-    text-align: center;
+.skills-proyects-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    width: auto;
     margin-top: 100px;
 }
 
-.flexbox-skills-container{
+.skills-proyects-container h1{
+    color: rgb(182, 182, 255);
+    font-size: 42px;
+    text-align: center;
+}
+
+.skills-proyects-container h2{
+    color: rgb(205, 205, 248);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skills-proyects-container .view-all-button{
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgb(182, 182, 255);
+    padding: 10px 40px;
+    font-weight: bold;
+    margin-top: 35px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 10);
+    transition: .5s ease all;
+}
+
+.skills-proyects-container .view-all-button:hover{
+    transform: scale(1.1);
+    color: rgb(182, 182, 255);
+    border: 2px solid white;
+    background-color: #201f1f;
+}
+
+.proyect-container{
     display: flex;
     flex-direction: row;
-    align-items: center; /* Centrar horizontalmente */
-    width: auto;
-    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 100px;
+    width: 1000px;
+    height: auto;
+    border: 2px solid rgb(182, 182, 255);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 10);
+
+    transition: .5s ease all;
+    /*ANIMATIONS*/
+    view-timeline-name: --image; /* Le da un nombre a view-timeline */
+    view-timeline-axis: block; /* Para que se mueve verticalmente */
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 60%; /* Cuando la imagen esta en la entrada de la animacion ya se ve el 25% cuando el elemento esta a un 30%. Esto para que no sea molesto para el usuario y tenga que scrollear todo para ver la imagen completa. */
+    animation-fill-mode: both; /* Para que funcione cuando scrolleo de arriba para abajo y viceversa */
 }
 
-.skills-container{
+@keyframes show{
+    from{
+        opacity: 0;
+        scale: 25%;
+    }
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+.proyect-container:hover{
+    transform: scale(1.1);
+}
+
+.proyect-container img{
+    width: 500px;
+    height: 300px;
+    border: .2px solid rgb(182, 182, 255);
+}
+
+.info-proyect-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    color: white;
-    width: fit-content;
-    height: fit-content;
+    justify-content: space-between;
     margin-left: 50px;
-    margin-right: 50px;
+    color: white;
 }
 
-.skills-container img{
-    transition: .5s ease all;
-    width: 500px;
-    align-self: stretch;
+.info-proyect-container .info-proyect-text p{
+    font-size: 17px;
+    line-height: 12px;
 }
 
-.skills-container img:hover{
-    opacity: .2;
-    transform: scale(1.5);
+.info-proyect-text{
+    padding: 15px;
+}
+
+.info-proyect-container .info-proyect-text .proyect-title{
+    font-size: 20px;
+    color: rgb(182, 182, 255);
+    font-weight: bold;
 }
