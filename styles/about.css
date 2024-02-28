@@ -1,13 +1,17 @@
 #about{
     background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
 }
 
 .about-container{
     display: flex;
+    margin-top: 300px;
     align-items: center;
     justify-content: center;
     width: auto;
-    height: auto;
 }
 
 .info-container{
@@ -16,12 +20,11 @@
     align-items: center;
     justify-content: center;
     width: 50%;
-    height: 100%;
-    margin-top: 270px;
     padding: 20px;
-    margin-bottom: auto;
     background-color: #141313;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .1);
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
     transition: .7s ease all;
 }
 

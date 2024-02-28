@@ -1,11 +1,15 @@
 #home{
     background-color: #141313;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
 }
 
 .home-container{
     display: flex;
-    margin-left: 300px;
-    margin-top: 250px;
+    margin-left: -300px;
+    margin-top: 300px;
     width: fit-content;
     align-items: center;
     justify-content: center;
@@ -13,7 +17,11 @@
 }
 
 .home-container .info-home{
-    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-container .info-home h2{
@@ -26,13 +34,6 @@
     font-size: 30px;
 }
 
-.home-container .info-home img{
-    width: 50px;
-    height: auto;
-    margin-left: -5px;
-    margin-bottom: 10px;
-}
-
 .home-container .info-home h1{
     color: rgb(182, 182, 255);
     font-size: 50px;
@@ -43,14 +44,21 @@
     font-size: 20px;
 }
 
+.social-media-home-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .home-container .info-home .cv-button{
-    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
     border: 2px solid rgb(182, 182, 255);
-    background-color: transparent;
     cursor: pointer;
     text-decoration: none;
     color: rgb(182, 182, 255);
-    padding: 10px 50px;
+    width: 200px;
     font-weight: bold;
     transition: .3s ease all;
 }
@@ -58,6 +66,17 @@
 .home-container .info-home .cv-button:hover{
     color: white;
     border-color: white;
+}
+
+.home-container .info-home .social-logo-home{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    transition: .3s ease all;
+}
+
+.home-container .info-home .social-logo-home:hover{
+    color: rgb(182, 182, 255);
 }
 
 .img-home-container{
@@ -72,7 +91,7 @@
     height: auto;
     border: 2px solid rgb(182, 182, 255);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
-    transition: .3s ease all;
+    transition: .7s ease all;
 }
 
 .img-home-container img:hover{

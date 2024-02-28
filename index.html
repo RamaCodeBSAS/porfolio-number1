@@ -28,21 +28,18 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-        </header> <!--Etiqueta main separado por <section> en donde los <li> nos llevan a cada section-->
+        </header>
         <section id="home">
             <div class="home-container">
                 <div class="info-home">
-                    <h2>Hi, i´m <span>Ramiro</span>.<img src="img/hola.png" alt=""></h2>
+                    <h2>Hi, i´m <span>Ramiro</span>.</h2>
                     <h1>Software engineering student.</h1>
                     <p>"Passion for learning, learning for solutions."</p>
-                    <a class="cv-button" href="files/CV-RamiroGracia.pdf">Download CV</a>
-                    <!-- Agregar cuando pueda los logos de Github y Linkedin. Lo que pasaba es que se alineaban con el "boton" de download CV.
-
-                    <a class="logo" href="https://github.com/ramiro-gracia"><img src="img/github-for-home.png" alt=""></a>
-
-                    <a class="logo" href="https://www.linkedin.com/in/ramiro-gracia/"><img src="img/link-for-home.png" alt=""></a>
-
-                    -->
+                    <div class="social-media-home-container">
+                        <a class="cv-button" href="files/CV-RamiroGracia.pdf">Download CV</a>
+                        <a class="social-logo-home" href="https://github.com/ramiro-gracia"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg></a>
+                        <a class="social-logo-home" href="https://www.linkedin.com/in/ramiro-gracia/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    </div>
                 </div>
                 <div class="img-home-container">
                     <a href="#about"><img src="img/linkedin-yo.jpg" alt=""></a>
@@ -60,69 +57,55 @@
             </div>
         </section>
         <section id="education-work">
-            <h1 class="education-wotk-title">Education & Work</h1>
+            <h1 class="education-work-title">Education & Work</h1>
             <div class="education-container">
-                <div class="education-container1">
-                    <h1>University</h1>
-                    <h2>Software engineering.</h2>
-                    <h3>Universidad del Salvador.</h3>
-                    <h4>2020-Present (4th year)</h4>
+                <a href=https://www.usal.edu.ar/">
+                    <div class="education-container1">
+                        <h1>University</h1>
+                        <h2>Software engineering.</h2>
+                        <h3>Universidad del Salvador.</h3>
+                        <h4>2020-Present (4th year)</h4>
+                    </div>
+                </a>
+                <a href="https://www.utn.edu.ar/es/">
+                    <div class="education-container1">
+                        <h1>Diploma</h1>
+                        <h2>Java programming.</h2>
+                        <h3>U.T.N.</h3>
+                        <h4>2023-Finished</h4>
+                        <a href="https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado">See diploma</a>
+                        <p>Use code: CER-M2GGBU0K-1001069</p>
                 </div>
-                <div class="education-container1">
-                    <h1>Diploma</h1>
-                    <h2>Java programming.</h2>
-                    <h3>U.T.N.</h3>
-                    <h4>2023-Finished</h4>
-                    <a href="https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado">See diploma</a>
-                    <p>Use code: CER-M2GGBU0K-1001069</p>
-                </div>
-                <div class="education-container1">
-                    <h1>Diploma</h1>
-                    <h2>Fullstack web dev.</h2>
-                    <h3>Government of BSAS.</h3>
-                    <h4>2022-Finished</h4>
-                </div>
-                <div class="education-container1">
-                    <h1>Work experience</h1>
-                    <h2>IT support.</h2>
-                    <h3>Northfield School.</h3>
-                    <h4>2022-2023</h4>
-                </div>
+                </a>
+                <a href="https://buenosaires.gob.ar/educacion/codo-codo-40">
+                    <div class="education-container1">
+                        <h1>Diploma</h1>
+                        <h2>Fullstack web dev.</h2>
+                        <h3>Government of BSAS.</h3>
+                        <h4>2022-Finished</h4>
+                    </div>
+                </a>
+                <a href="https://www.northfield.edu.ar/es/puertos/home">
+                    <div class="education-container1">
+                        <h1>Work experience</h1>
+                        <h2>IT support.</h2>
+                        <h3>Northfield School.</h3>
+                        <h4>2022-2023</h4>
+                    </div>
+                </a>
             </div>
         </section>
         <section id="skills">
-            <!--Seguir con skills. La idea era hacer como un grid con una foto de fondo sobre el proyecto y que cuando haga hover se difumine la imagen  y salga un texto describiendo el nombre del proyecto y las skills que use. Cuando haga click lo lleve al proyecto-->
-            <div id="grid">
-                <div class="grid-container">
-                    <h1 class="title-skills">Proyects & Skills.</h1>
-                    <div class="gird-wrapper">
-                        <div class = "box .box-1">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur nostrum pariatur quod totam accusamus voluptatum, voluptates tenetur unde magni.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt maiores asperiores temporibus dolore minus quibusdam, incidunt id praesentium a! Ut, non aut. Veritatis velit aperiam accusamus. Esse repellendus ratione, recusandae autem eum iure vero. Veniam.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ratione cupiditate cum iusto, doloremque est voluptate totam facilis nesciunt exercitationem accusantium, incidunt aperiam nulla ab quidem sunt laboriosam saepe, voluptates libero et similique sint nihil? Culpa eaque distinctio doloremque soluta dolorem optio laboriosam? Nesciunt incidunt, tenetur nisi eveniet expedita quae.</p>
-                            <a href="#" class="btn btn-purple">More Info</a>
-                        </div>
-                        <div class="box .box-2">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, quia? Esse autem neque magnam fugiat repellendus sint vitae atque minima aut quae consectetur impedit nisi blanditiis molestiae quam, inventore quibusdam, nostrum cupiditate! Rem, asperiores consequuntur.</p>
-                            <a href="#" class="btn btn-purple">More Info</a>
-                        </div>
-                        <div class="box .box-3">
-                            <img src="img/git-grid.png" alt="">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam modi tempora, totam qui natus aliquam quo dolore enim quasi itaque perspiciatis vel, iste sit eaque!</p>
-                            <a href="#" class="btn btn-purple">More Info</a>
-                        </div>
-                        <div class="box .box-4">
-                            <img src="img/tw-card.png" alt="">
-                        </div>
-                        <div class="box .box-5">
-                            <img src="img/my-porfolio.png" alt="">
-                            <a href="#" class="btn btn-orange">More Info</a>
-                        </div>
-                        <div class="box .box-6">
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, minima beatae? Praesentium in ea inventore. Illum animi fugit atque distinctio!</p>
-                            <a href="#" class="btn btn-orange">More Info</a>
-                        </div>
-                    </div>
+            <h1 class="title-skills">Proyects & Skills.</h1>
+            <div class="flexbox-skills-container">
+                <div class="skills-container">
+                    <a href="https://github.com/ramiro-gracia"><img src="img/git-grid.png" alt=""></a>
+                </div>
+                <div class="skills-container">
+                    <a href="https://github.com/ramiro-gracia"><img src="img/git-grid.png" alt=""></a>
+                </div>
+                <div class="skills-container">
+                    <a href="https://github.com/ramiro-gracia"><img src="img/git-grid.png" alt=""></a>
                 </div>
             </div>
         </section>

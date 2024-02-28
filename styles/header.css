@@ -10,6 +10,11 @@
     padding: 20px;
     z-index: 1000;
     border-bottom: 2px solid rgb(182, 182, 255);
+    transition: .7s ease all;
+}
+
+.header:hover{
+    border-bottom-color: rgb(115, 115, 240);
 }
 
 .header .titulo{
