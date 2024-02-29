@@ -1,0 +1,147 @@
+/* Media query para dispositivos más pequeños */
+@media screen and (max-width: 787px) {
+    /* GLOBAL CSS */
+
+    *{
+        font-size: 10px;
+    }
+
+    /* HEADER CSS */
+
+    .header {
+        height: auto; /* Ajustar la altura automáticamente */
+        flex-direction: row; /* Apilar elementos verticalmente */
+        padding: 10px; /* Reducir el espacio entre los elementos */
+    }
+
+    .header .titulo{
+        display: none;
+    }
+
+    .header .titulo a{
+        font-size: 20px;
+    }
+
+    .header .nav-links {
+       padding: 0 100px;
+       margin-right: auto;
+    }
+
+    .header .nav-links li{
+        padding: 0 15px;
+        margin-left: 50px;
+    }
+
+    .header .titulo {
+        margin-left: 0; /* Ajustar el margen izquierdo */
+        text-align: center; /* Centrar el texto */
+    }
+
+    /* HOME CSS */
+    #home{
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .home-container{
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 100px;
+    }
+
+    .home-container .info-home h2{
+        font-size: 20px;
+    }
+
+    .home-container .info-home h2 span{
+        color: rgb(182, 182, 255);
+        font-size: 20px;
+    }
+
+    .home-container .info-home h1{
+        font-size: 25px;
+    }
+
+    .home-container .info-home p{
+        font-size: 15px;
+    }
+
+    .img-home-container{
+        display: none;
+    }
+
+    .home-container .info-home .cv-button{
+        width: auto;
+        height: auto;
+        
+    }
+
+    /* ABOUT */
+
+    #about{
+        height: auto;
+    }
+
+
+    .info-container{
+        
+    }
+
+}
+
+@media screen and (max-width: 1095px) {
+
+    /*HEADER*/
+
+    .header .titulo{
+        margin-left: 0;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 894px) {
+
+    /* HEADER */
+
+    .header .titulo{
+        display: none;
+    }
+
+    .header .nav-links li{
+        padding: 0 15px;
+        margin-left: 20px;
+    }
+
+
+    /* HOME */
+
+    .home-container{
+        width: 20rem;
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 1250px) {
+    .home-container{
+        width: 50rem;
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 1731px) {
+
+    .education-container{
+        flex-wrap: wrap; /* Permite que las cajas se envuelvan a la siguiente línea */
+        justify-content: center;
+    }
+
+    .education-container1{
+        width: 10rem; /* Ajusta el ancho de las cajas para ocupar el 40% del contenedor */
+        margin: 20px;
+    }
+}

@@ -20,8 +20,10 @@ a{
 .education-container{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center; /* Centrar horizontalmente */
     width: auto;
+    height: auto;
     margin-top: 120px;
 }
 
@@ -32,8 +34,8 @@ a{
     justify-content: space-around;
     align-items: center;
     color: white;
-    width: 350px;
-    height: 350px;
+    width: 18rem;
+    height: 18rem;
     padding: 40px 20px;
     margin-left: 50px;
     margin-right: 50px;
